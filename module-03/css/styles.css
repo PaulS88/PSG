@@ -1,0 +1,83 @@
+html
+{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body
+{
+    font-family: "Playfair", "Display" ;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+nav
+{
+    font-size: 14px;
+}
+nav a {
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 17px;
+}
+nav li
+{
+    display: inline-block;
+    margin-left: 165px;
+    list-style: none;
+}
+h2 {
+    color: 626262;
+    font-size: 30;
+    line-height: 36px;
+}
+li.foto-list-item{
+    display: inline-block;
+    width: 420px;
+    margin-right: 150px;
+    height: 500px;
+
+}
+li.foto-list-item:nth-child(2n)
+{
+margin-right: 0px;
+}
+button {
+    background-image: url("Livello 7.png");
+    left: 0px;
+    top: 0px;
+  }
+  .load_more_button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1200px;
+    height: 2079px;
+    z-index: 5;
+  }
+  .Load_more {
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    position: absolute;
+    left: 539.87px;
+    top: 1966.5px;
+    z-index: 4;
+  }
+  .box {
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    position: absolute;
+    left: 507px;
+    top: 1949px;
+    width: 162px;
+    height: 58px;
+    z-index: 3;
+  }
+  
