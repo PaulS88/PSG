@@ -1,83 +1,86 @@
-html
-{
+html {
     box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+body{
+    margin: 0;
 }
-body
-{
-    font-family: "Playfair", "Display" ;
-    color: #626262;
-    font-size: 14px;
-    line-height: 24px;
+.sizes{
+    width: 904px;
+    margin: 0px auto;
 }
-nav
-{
-    font-size: 14px;
+ul.navigation{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
 }
-nav a {
-    color: #626262;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 17px;
+nav{
+    margin-top: 65px;
 }
-nav li
-{
+.navigation li {
+    box-sizing: border-box;
     display: inline-block;
-    margin-left: 165px;
-    list-style: none;
+    text-transform: uppercase;
+    margin-left: 0px;
+    margin-right: 102px;
+    text-shadow: 1px color="#c0c0c0";
+    }
+.navigation li:last-child{
+    margin-right: 0px;
+}
+a {
+    text-decoration: none;
+    color: #626262;
+}
+a:hover {
+    color: #03a9f4;
+    text-shadow: 1px color="#abd9fa";
+}
+article {  
+    box-sizing: border-box;
+    block-size: auto;
+    height: 480px;
+    display: inline-block;
+    margin-top: 92px;
+    margin-right: 60px;
+    text-align: left;
+}
+article.even-item{
+    margin-right: 0px;
 }
 h2 {
-    color: 626262;
-    font-size: 30;
-    line-height: 36px;
-}
-li.foto-list-item{
-    display: inline-block;
-    width: 420px;
-    margin-right: 150px;
-    height: 500px;
-
-}
-li.foto-list-item:nth-child(2n)
-{
-margin-right: 0px;
-}
-button {
-    background-image: url("Livello 7.png");
-    left: 0px;
-    top: 0px;
-  }
-  .load_more_button {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1200px;
-    height: 2079px;
-    z-index: 5;
-  }
-  .Load_more {
-    font-size: 20px;
-    font-family: "PlayfairDisplay";
-    color: rgb(98, 98, 98);
+    margin: 0;
+    font-size: 30px;
     line-height: 1.2;
-    position: absolute;
-    left: 539.87px;
-    top: 1966.5px;
-    z-index: 4;
-  }
-  .box {
-    border-width: 1px;
-    border-color: rgb(98, 98, 98);
-    border-style: solid;
-    position: absolute;
-    left: 507px;
-    top: 1949px;
-    width: 162px;
-    height: 58px;
-    z-index: 3;
-  }
-  
+    color: #626262;
+}
+p.title{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+p{
+    margin-top: 29px;
+    font-size: 14px;
+    width: 420px;
+    color: #626262;
+    line-height: 1.5;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+button{
+    max-width: 162px;
+    height: 62px;
+    margin: 52px 371px;
+    padding: 18px 39px 18px 33px;
+    border: #626262 solid 1px;
+    font-family: "PlayfairDisplay";
+    font-size: 20px;
+    line-height: 1.2;
+}

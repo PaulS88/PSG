@@ -1,0 +1,273 @@
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+@font-face{
+    font-family: "Pe 7 icon";
+    src: url(../fonts/Pe-icon-7-stroke.ttf);
+}
+.navigation-logo{
+    display: block;
+    margin: 34px auto;
+}  
+.logo{
+float: left;
+}
+.logo::first-letter{
+    color: #1abc9c;
+}
+.main-menu{    
+      display: block;
+      width: 472px;
+      margin: 0;
+      padding: 0;
+      float: right;
+      text-align: right;
+  }
+.main-menu::after{
+    display: block;
+    content: ' ';
+    clear: both;
+}
+.menu-item{
+      padding: 0;
+      display: block;
+      width: auto;
+      float: left;
+      margin-right: 30px;
+      text-align: left;
+      font: 14px/1.2 "Open Sans", sans-serif;
+      font-weight: bold;
+      }
+.menu-item:last-child{
+    margin-right: 0px;
+}
+.nav-link{
+    vertical-align: middle;
+    font-family: "Open Sans", bold;
+    font-size: 14px;
+    color: #0f0101;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: #1abc9c;
+}
+
+.offers{
+    display: block;
+    margin: 0; 
+    padding: 0;
+    background-image: url(../img/basic-image.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offering{
+    float: left;
+    padding: 200px 0px 275px 75px;
+}
+.offer-title{
+    margin: 0px;
+    font: 60px/1.6 "Roboto", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-weight: bold;
+}
+.offer-menu{
+    font: 24px/1.2 "Roboto",sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    margin: 0;
+}
+.icon{
+    margin-top: 230px;
+    border: 2px solid #4f9c8a;
+    background-color: #4f9c8a;
+    text-align: center;
+    padding: 0;
+}
+.less{
+    display: block;
+    float: left;
+    color: #ffffff;
+    font: 400 100px/1.0 'Pe 7 icon';
+}
+.more{
+    display: block;
+    float: right;
+    color: #ffffff;
+    font: 400 100px/1.0 'Pe 7 icon';
+}
+img{
+    max-width: 100%;
+}
+.collection-title {
+    position: relative;
+    font: bold 48px/1.2 'Roboto', sans-serif;
+    color: #515151;
+    text-transform: uppercase;
+    text-align: center;
+    margin:100px 0px 87px 0px;
+}
+.collection-title::after {
+    position: absolute;
+    top: 83px;
+    left: 473px;
+    content: '';
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+}
+.coll-items{
+    display: block;
+   padding: 0;
+   margin-bottom: 100px;
+}
+.collection-item{
+    position: relative;
+    display: block;
+    width: 255px;
+    float: left;
+    margin-right: 30px;    
+}
+.collection-item:last-child{
+    margin-right: 0px;
+}
+.hide-icons{
+    display: none;
+    width: 235px;
+    height: 261px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #737373;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.hide-menu{
+    max-width: 166px;
+    padding: 0;
+    position: absolute;
+    top: 79px;
+    left: 35px;
+    content: '';
+    display: block;
+    clear: both;    
+}
+.hide-icon-item{
+    display: inline-block;
+    width: 48px;
+    border: #ffffff solid 1px;
+    float: left;
+    margin-right: 9px;
+    text-align: center;
+    line-height: 48px;
+}
+.hide-icons-font{
+    font-family: "Pe 7 icon";
+    font-size: 30px;
+    vertical-align: middle;
+    color: #ffffff; 
+    opacity: 1;
+    text-align: center;
+    text-decoration: none;
+}
+.hide-icon-item:hover{
+    background-color: #1abc9c;
+}
+.basket:hover{
+    background-color: #1abc9c;
+}
+.hide-icon-item:nth-child(2n){
+    margin-right: 7px;
+}
+.hide-icon-item:last-child{
+    margin: 0px;
+}
+.basket{
+    display: block;
+    width: 166px;
+    border: #ffffff solid 1px;
+    padding: 7px;
+    position: absolute;
+    bottom: 75px;
+    left: 35px;
+    box-shadow: none;
+    background-color:#323232;
+    font-family: "Pe 7 icon";
+}
+bdi.bask{
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    vertical-align: 9px;
+}
+.collection-item:hover .hide-icons{
+    display: block;
+      }
+.image{
+    width: 255px;
+    padding: 0px;
+    overflow: hidden;
+}
+.product-item{
+    position: absolute;
+        display: block;
+        float: left;
+        margin: 0;
+        right: 0;
+        bottom: 0;
+        width: 255px;
+        font: 18px/1.2 "Roboto", sans-serif ;
+        color: #ffffff;
+        text-transform: uppercase;
+    background-image: linear-gradient(to right, #323232 79%, #8c8c8c 21%);
+}
+.product-cost{
+    font-size: 18px;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.product-name{
+    font-size: 18px;
+    display: block;
+    margin: 0;
+    width: 158px;
+    float: left;
+    padding: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.collection-item:hover> .product-item{
+    background-image: linear-gradient(to right, #1abc9c 79%, #7fd9c7 21%);
+}
+.more-info{
+    line-height: 66px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #323232;
+}
+.color-graf{
+    color: #45b8a3;
+}
+.additional-info{
+    margin: 0;
+}
