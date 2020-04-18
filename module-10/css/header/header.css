@@ -1,0 +1,71 @@
+@import "../navigation/nav.css";
+
+.header{
+    margin: 0 auto;
+    padding: 28px 0 230px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    background-image: url(../../img/title.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx), (min-resolution: 192dpi){
+    .header{
+        background-image: url(../../img/title@2x.jpg);
+    }
+}
+.header__menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: 185px;
+}
+.header__slogan{
+    font: 72px/1.2 "Kaushan Script", sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 0px auto 60px;
+}
+.header__title{
+    font: 150px/140px "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0px 190px 100px;
+    padding: 0px;
+}
+.header__btn{
+    padding: 12px 30px;
+    font: 14px/1.2 "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background: none;
+    border: 3px solid #ffffff;
+    text-transform: uppercase;
+}
+.header-icons:hover{
+    fill: #fce38a;
+}
+.header-icons{
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+}

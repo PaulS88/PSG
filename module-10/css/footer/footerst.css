@@ -1,0 +1,66 @@
+.basement{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 10px 0;
+    border: 1px;
+    border-top:#e5e5e5;
+
+}
+bdi{
+    color: #f38181;
+}
+.basement__signature{
+    margin: 0;
+    padding: 0;
+    font: normal 14px/1.2 'Montserrat', sans-serif;
+    color: #333333;
+}
+.mailform__subscrible{
+    margin: 0;
+    width: 150px;
+    padding: 12px 28px;
+    font: bold 14px/1.2 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase; 
+    border: none;
+    background-color: rgb(149, 225, 211); 
+}
+.mail-form__input{
+    margin-left: auto;
+    margin-right: -4px;
+    padding: 10px 7px;
+    border: none;
+    outline: 1px solid #e7e7e7;
+}
+::-webkit-input-placeholder{
+    color: #cccccc;
+    font: 15px/24px "Roboto" lighter italic, sans-serif;
+}
+::-moz-placeholder{
+    color: #cccccc;
+    font: 15px/24px "Roboto" lighter italic, sans-serif;
+}
+:-ms-input-placeholder{
+    color: #cccccc;
+    font: 15px/24px "Roboto" lighter italic, sans-serif;
+}
+::-ms-input-placeholder{
+    color: #cccccc;
+    font: 15px/24px "Roboto" lighter italic, sans-serif;
+}
+::placeholder{
+    color: #cccccc;
+    font: 15px/24px "Roboto" lighter italic, sans-serif;
+}
+.basemment__mail-form{
+    width: 380px;
+}

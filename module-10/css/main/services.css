@@ -1,0 +1,40 @@
+.main-services{
+    padding: 45px 0 80px 0;
+    text-align: center;
+}
+.main-services__slogan{
+    margin: 0px;
+    font: 24px/1.2 "Kaushan script", sans-serif;
+    font-weight: normal;
+    color: #333333;
+}
+.main-services__title{
+    font: 30px/1.2 "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    position: relative;
+}
+.main-services__title::after{
+    position: absolute;
+    top: 73px;
+    left: 570px;
+    display: block;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+.main-services__items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,225 @@
+.hat{
+    margin-bottom: 67px;
+    min-height: 540px;
+    text-align: center;
+    background-image: url(../img/bc-image-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup-menu{
+    padding-top: 20px;
+}
+.register-form{
+    margin-bottom: 116px;
+}
+.signup-item{
+    min-width: 90px;
+    padding: 10px 17px;
+    font-family: 14px/1.2 "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signup-item:focus,
+.signup-item:hover{
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+}
+.firm-logo{
+    margin-bottom: 29px;
+    font: 20px/1.2 "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.firm-title{
+    margin: 0px -15px;
+    margin-bottom: 11px;
+    padding: 0px;
+    font: 30px/1.2 "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.firm-slogan{
+    margin: 0;
+    margin-bottom: 18px;
+    padding: 0px 20px;
+    font: 18px/1.2 "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+}
+.firm-partners{
+    margin: 0 -10px;
+    padding: 15px 45px;
+    background-color: #FF4E50;
+    font: 14px/1.2 "Montserrat", sans-serif ;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.partners-title{
+    margin: 0;
+    margin-bottom: 18px;
+    padding: 0;
+    font: 22px/1.2 "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+}
+.partners{
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+.member-images{
+    padding: 51px 0px;
+    position: relative;
+}
+.member-photo{
+    margin-bottom: 20px;
+}
+.member-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.partner-card{
+    padding: 0 37px;
+}
+.more-partners{
+    box-sizing: border-box;
+    margin: 0 20px;
+    margin-bottom: 25px;
+    width: 284px;
+    padding: 11px 0px;
+    border: 2px solid #ff4e50;
+    color: #ff4e50;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font: 14px/1.2 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.member-name{
+    font: 14px/1.2 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+.some-member-info{
+    font: 14px/1.2 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #666666;
+    } 
+
+
+@media (min-width: 767px){
+        .container{
+            width: 748px;
+        }
+        .main-menu{
+            min-height: 700px;
+        }
+        .signup-menu{
+            padding: 48px 40px 17px;
+            min-height: 0px;
+        }
+        .firm-title{
+            margin: 0 0 30px;
+            padding: 0px 80px;
+            font: 52px/1.2 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        .firm-slogan{
+            margin: 0 0 30px;
+            padding: 0 50px;
+            font: 24px/1.2 'Roboto', sans-serif;
+            font-weight: 300;
+            color: #ffffff;
+        }  
+        .firm-partners{
+            display: block;
+            width: 226px;
+            margin: 0 auto;
+            padding: 12px 0;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 20px;
+            background-color: #ff4e50;
+            font: 14px/1.2 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        .partners{
+           padding: 0;
+        } 
+        .partner-card{
+            width: 236px;
+            margin: 0 auto;
+            padding: 0;
+            margin-bottom: 60px;
+        }
+        .partner-card:last-child{
+            margin-bottom: 0;
+        }
+        .partner-card:nth-child(n+3){
+            margin-bottom: 0;
+        }
+        .some-member-info{
+            padding: 0 10px;
+            }
+        .partner-button{
+            text-align: center;
+        }
+    }
+    @media (min-width: 1200px){
+        .container{
+            width: 942px;
+        }
+        .main-menu{
+            min-height: 700px;
+            max-width: 1440px;
+        }
+        .signup-menu{
+            margin-bottom: 44px;
+            padding: 48px 0px 2px;
+        }
+        .firm-slogan{
+            margin-bottom: 10px;
+        }
+        .firm-partners:focus,
+        .firm-partners:hover{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .firm-title{
+            padding: 0 140px;
+        }
+        .partners{
+            padding: 33px 0 0 0 ;
+        }
+        .partner-card{
+            width: 220px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+        }
+        .partner-card:nth-child(3n){
+            margin-bottom: 40px; 
+        }
+        .partner-card:last-child{
+            margin-right: 0px;
+        }
+        .more-partners{
+            width: 184px;
+        }
+        .partner-card:nth-child(n+3) {
+            margin-bottom: 40px;
+    }
+    }

@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'Merriweather regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/module-07/fonts/Merriweather/merriweather-v21-latin-regular.woff2') format('woff2'),
+         url('/module-07/fonts/Merriweather/merriweather-v21-latin-regular.woff') format('woff'),
+}
+@font-face{
+    font-family: 'Merriweather bold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('/module-07/fonts/Merriweather/merriweather-v21-latin-900.woff2') format('woff2'),
+         url('/module-07/fonts/Merriweather/merriweather-v21-latin-900.woff') format('woff'),
+}
+@font-face{
+    font-family: 'Radley italic';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/module-07/fonts/Radley-italic/radley-v14-latin-italic.woff2') format('woff2'),
+         url('/module-07/fonts/Radley-italic/radley-v14-latin-italic.woff2') format('woff'),
+}
+@font-face{
+    font-family: 'RobotoSlab';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/module-07/fonts/RobotoSlab/roboto-slab-v11-latin-regular.woff2') format('woff2'),
+         url('/module-07/fonts/RobotoSlab/roboto-slab-v11-latin-regular.woff') format('woff'),
+}
+
